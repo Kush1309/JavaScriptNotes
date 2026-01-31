@@ -8,7 +8,7 @@ function test() {
 test();
 // console.log(x) //it is wring or give error
 
-// **********************************************************
+// *********************************************************
 
 let address = "Kanpur Nagar"
 console.log(address) //block scope

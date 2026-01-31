@@ -1,2 +1,2 @@
-console.log(typeof undefined); //undefined
-// console.log(typeof null);
+console.log(typeof score);
+// console.log(typeof (score));

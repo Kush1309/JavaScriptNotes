@@ -18,4 +18,23 @@ arr.forEach((num)=>{
         newNum.push(num)
     }
 })
-console.log(newNum)
+// console.log(newNum)
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++
+const newSum=arr.map((num)=> num+10)
+// console.log(newSum)
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++
+
+// chaning :-means method ke kai method lagana for example .map().map().filter()
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++'+/
+// Reduce me do Accumulator am nsore karta Hai
+
+const myNumber =[1,3,4,6]
+const sumacc=myNumber.reduce( (acc,curr)=> acc+curr,0)
+console.log(sumacc)
+
+

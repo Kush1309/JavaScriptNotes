@@ -1,7 +1,3 @@
-const ObjMap=[
-//     name="Kushagra",
-//     college="LPU" 
-// ]
-// for (const i of ObjMap) {
-//     console.log(i);
+for (const key in arr) {
+//     console.log(arr[key])
 // }

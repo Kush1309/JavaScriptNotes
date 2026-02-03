@@ -99,3 +99,6 @@ const myArr=[
 myArr.forEach( (items) =>{
     console.log(items.language);
 } )
+
+// ++++++++++++++++++++++++++++++++++++++++++++
+// for each koi value return nahi karta hai ye undefined dega

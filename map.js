@@ -16,10 +16,23 @@ map.set("IN","India");
 
 //lekin for of iterater object me nahi chalta hai
 
-const ObjMap=[
-    name="Kushagra",
-    college="LPU" 
-]
-for (const i of ObjMap) {
-    console.log(i);
+// const ObjMap=[
+//     name="Kushagra",
+//     college="LPU" 
+// ]
+// for (const i of ObjMap) {
+//     console.log(i);
+// }
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// for in object me work karta hai
+
+const myObj={
+    name:"Kushagar",
+    section: "K@#BE",
+    package:"12000000"
+}
+for (const i in myObj) {
+    console.log(`${i} is the details ${myObj[i]}`);
 }

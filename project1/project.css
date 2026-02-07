@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 30px;
+}
+
+/* Container */
+div {
+    flex-direction: row;
+    align-items: center;
+
+}
+
+/* Color buttons row */
+span.button {
+    width: 80px;
+    height: 80px;
+    border: 5px solid black;
+    margin: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* Colors */
+#grey {
+    background-color: grey;
+}
+
+#white {
+    background-color: white;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+/* Arrange color boxes */
+/* div > span {
+    /* display: inline-block; */
+/* } */ */
+
+/* Text */
+h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+h2 span {
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+}
